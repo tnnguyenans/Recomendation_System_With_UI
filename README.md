@@ -129,6 +129,30 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
+### Required Packages
+
+The application requires the following Python packages:
+
+```
+# Core requirements
+python-dotenv>=1.0.0    # Environment variable management
+streamlit>=1.24.0       # User interface framework
+supabase>=1.0.3         # Database integration
+pydantic>=2.0.0         # Data validation and settings management
+
+# Algorithm requirements
+numpy>=1.24.0           # Numerical operations and arrays
+scipy>=1.10.0           # Scientific computing and algorithms
+pandas>=2.0.0           # Data analysis and manipulation
+
+# Development and testing
+pytest>=7.3.1           # Testing framework (alternative to unittest)
+black>=23.3.0           # Code formatting
+mypy>=1.3.0             # Static type checking
+```
+
+These are specified in the `requirements.txt` file.
+
 4. **Set up environment variables**
 
 Create a `.env` file based on `.env.example`:
