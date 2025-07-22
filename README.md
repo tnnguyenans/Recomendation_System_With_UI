@@ -2,6 +2,39 @@
 
 A sophisticated, object-oriented recommendation system built in Python with multiple recommendation strategies, database integration, and a streamlined user interface.
 
+## Main UI
+<img width="2307" height="1567" alt="image" src="https://github.com/user-attachments/assets/8f001c65-58e2-4c40-99b5-4d95ebd2c86b" />
+
+### Register page
+<img width="3092" height="1531" alt="image" src="https://github.com/user-attachments/assets/9098f035-d720-42c9-9c23-94d5c7bde835" />
+
+### Login page
+<img width="3109" height="1249" alt="image" src="https://github.com/user-attachments/assets/d940681f-9dbf-46d3-b70f-dc03c5ca065f" />
+
+### Home page: Provide general information
+<img width="1872" height="1119" alt="image" src="https://github.com/user-attachments/assets/535ff20b-9b9a-4246-aef0-dbfa946d1f61" />
+
+### Recommendations page: To provide recommended items/products based on user ratings
+<img width="3139" height="1639" alt="image" src="https://github.com/user-attachments/assets/aaab59b7-7565-47e0-9567-11fec6865ac2" />
+
+User can choose categories and recommedation strategy
+<img width="3158" height="1191" alt="image" src="https://github.com/user-attachments/assets/5a3af0f7-8296-416b-8096-89872a94306e" />
+
+### Browse items page
+Items can be selected by categories
+<img width="1872" height="1119" alt="image" src="https://github.com/user-attachments/assets/60a35591-5afc-4901-b66f-d482a7e87447" />
+
+User can select item and provide rating for this item by clicking on Submit Rating 
+<img width="2736" height="1581" alt="image" src="https://github.com/user-attachments/assets/399765ec-d711-41b4-a772-762cab9ba645" />
+
+### My Rating page
+<img width="2828" height="1314" alt="image" src="https://github.com/user-attachments/assets/da52a4dd-f117-4c7e-86ab-28159b22dc5a" />
+
+### Profile page
+<img width="3099" height="1636" alt="image" src="https://github.com/user-attachments/assets/251a358e-827b-4aa0-80fa-995aa1df7046" />
+
+<img width="3128" height="1482" alt="image" src="https://github.com/user-attachments/assets/3c67498b-9c80-47ba-acf0-17d5ffb06aa3" />
+
 ## Project Overview
 
 This Smart Recommendation Engine is designed to provide personalized recommendations using multiple algorithms and strategies. The system is built with extensibility, maintainability, and scalability in mind, following SOLID principles and leveraging multiple design patterns.
