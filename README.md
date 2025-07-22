@@ -11,11 +11,13 @@ This Smart Recommendation Engine is designed to provide personalized recommendat
 - Multiple recommendation strategies (Collaborative Filtering, Content-Based, Hybrid)
 - User interface for browsing items and viewing recommendations
 - User account management and preference tracking
+- User profile image upload and management
 - Rating system and personalized explanations
 - Admin dashboard for system management
 - Comprehensive logging and error handling
 - Database integration with Supabase
 - Advanced features including diversity optimization and similarity search
+- Robust unit testing with unittest framework
 
 ## Architecture
 
@@ -136,7 +138,8 @@ streamlit run app.py
 2. **View Recommendations**: Get personalized item recommendations based on your preferences
 3. **Browse Items**: Browse the catalog of available items
 4. **Rate Items**: Provide ratings for items to improve recommendations
-5. **View Profile**: Manage your profile and preferences
+5. **View & Edit Profile**: Manage your profile information, preferences, and upload profile image
+6. **Profile Image Management**: Upload JPG/PNG images as your profile picture (stored as base64 encoded data)
 
 ### Admin Features
 
@@ -166,11 +169,43 @@ streamlit run app.py
 
 ## Testing
 
-Run the test suite with:
+The application uses Python's unittest framework for comprehensive testing of all components following object-oriented design principles. Tests are organized by component with proper mocking of dependencies.
+
+### Running All Tests
+
+To run the complete test suite:
 
 ```bash
 python -m unittest discover tests
 ```
+
+### Running Specific Test Categories
+
+To run tests for a specific component:
+
+```bash
+python -m unittest tests.test_models  # Run all model tests
+python -m unittest tests.test_authentication_manager  # Run auth tests
+python -m unittest tests.test_recommendation_engine  # Run engine tests
+```
+
+### Running Individual Test Files
+
+To run a specific test file:
+
+```bash
+python -m unittest tests/test_user_model.py
+```
+
+### Test Coverage
+
+The test suite aims for 100% coverage of all business logic with proper testing of:
+
+- Model validation and business rules
+- Authentication and security features
+- Recommendation algorithms and strategies
+- UI component functionality
+- Database interactions with proper mocking
 
 ## Contributing
 
